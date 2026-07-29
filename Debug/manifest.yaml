@@ -1,3 +1,4 @@
+# debug script, we can install the needed packages in this image
 apiVersion: v1
 kind: Pod
 metadata:
