@@ -35,14 +35,14 @@ spec:
       - name: backend
         image: srinivasdevops97/backend:v1
         envFrom:
-        - configMapRef:
-           name: backend
+          - configMapRef:
+              name: backend
 ---
 # backend Service
 kind: Service
 apiVersion: v1
 metadata:
-  name: expense  # name of the service
+  name: backend  # name of the service
   namespace: expense
 spec:
   selector:

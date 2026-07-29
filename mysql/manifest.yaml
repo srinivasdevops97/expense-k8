@@ -30,6 +30,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: expense  # name of the service
+  namespace: expense
 spec:
   selector:
     app: mysql
