@@ -36,7 +36,7 @@ spec:
         image: srinivasdevops97/backend:v1
         envFrom:
         - configMapRef:
-          name: backend
+           name: backend
 ---
 # backend Service
 kind: Service
