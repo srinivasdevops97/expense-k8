@@ -24,3 +24,19 @@ spec:
       containers:
       - name: mysql
         image: srinivasdevops97/mysql:v1
+---
+# Service
+kind: Service
+apiVersion: apps/v1
+metadata:
+  name: expense  # name of the service
+spec:
+  selector:
+    app: mysql
+    tier: db
+    project: expense
+  ports:       # list of the ports
+  - name: mysql-port
+    protocol: TCP
+    port: 3306   # service port
+    targetPort: 3306     # container port(another port)
