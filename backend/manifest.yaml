@@ -14,7 +14,7 @@ metadata:
   name: backend
   namespace: expense
   labels:
-    app: mysql
+    app: backend
     tier: api
     project: expense
 spec:
