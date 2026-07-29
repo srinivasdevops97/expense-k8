@@ -29,7 +29,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: expense  # name of the service
+  name: mysql  # name of the service
   namespace: expense
 spec:
   selector:
