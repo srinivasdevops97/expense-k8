@@ -71,4 +71,4 @@ spec:
       name: cpu
       target:
         type: Utilization
-        averageUtilization: 15
+        averageUtilization: 15  # usually 75 in real environment
