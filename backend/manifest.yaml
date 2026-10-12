@@ -44,7 +44,7 @@ spec:
           memory: 128Mi
       envFrom:
         - configMapRef:
-          name: backend
+            name: backend
 ---
 # backend Service
 kind: Service
